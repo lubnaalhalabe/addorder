@@ -1,0 +1,48 @@
+.prodect-item {
+    border: 1px solid #fde4e4;
+    text-align: center;
+    padding: 30px ;
+    cursor: pointer;
+}
+.prodect-img {
+    margin-bottom: 20px;
+    transition: .4s;
+}
+.prodect-img :hover{
+    transform: scale(1.6);
+}
+.prodect-content h5{
+    margin-bottom: 30px;
+    
+}
+.prodect-content h5 a {
+    color: #212245;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+.prodect-price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fd2020;
+}
+.addToCart-butm{
+    border: none;
+    padding: 7px 20px;
+    color: #fff;
+    background: #fd2020;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+@media only screen and (max-width:992px) {
+    .prodect-content h5 a {
+        font-size: .8rem;
+    }
+    .prodect-item{
+        padding: 20px;
+    }
+    .addToCart-butm{
+        padding: 5px 15px;
+        font-size: .8rem;
+    }
+}

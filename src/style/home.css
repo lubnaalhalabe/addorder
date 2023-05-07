@@ -1,0 +1,148 @@
+.feater-sub{
+    color: #fd2020;
+    
+}
+.feater-title span {
+    color: #fd2020;
+    font-weight: 600px; 
+}
+.feater-text , 
+.deater-items p{
+    color: #777;
+}
+.deater-items img{
+    width: 150px;
+    height: 150px;
+}
+.food-populer {
+    background: #fd2020;
+    text-align: center;
+    padding: 20px 0px ;
+    border-radius: 8px;
+    margin-top: 30px;
+
+
+}
+.food-populer button{
+    background: transparent;
+    padding: 7px 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.food-populer img {
+    width: 30px ;
+    height: 30px;
+}
+.populerbutnActive{
+    background: #fff !important;
+    border-radius: 5px;
+    color: #fd2020 !important;
+}
+.why-treat-text  span{
+color: #fd2020;
+}
+.tread-text-desc {
+color: #777;
+line-height: 28px;
+}
+.choose-titel{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.choose-titel i{
+    font-weight: 500 !important;
+    color: #fd2020;
+}
+.choose-desc {
+    color: #777;
+}
+.termenal-network {
+    color: #fd2020; 
+}
+.termenal-title span {
+    color:#fd2020
+}
+.termanal-desc {
+    color: #777;
+    line-height: 30px ;
+}
+
+
+
+
+@media only screen and (max-width:576px) {
+    .hero-content{
+        text-align: center;
+    }
+   
+    .hero-butn {
+        justify-content: center;
+    }
+    
+    .hero-service{
+        justify-content: center;
+    }
+    .all-but {
+        font-size: .5rem;
+        margin-left: -60px;
+    }
+    .why-loger{
+        padding-top: 3px;
+    }
+}
+@media  only screen and (max-width:768px) { 
+    .hero-content h5 {
+        font-size: 1rem;
+    }
+    .hero-content p{
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+    .hero-title{
+        font-size:1.5rem;
+        line-height: 40px;
+    }
+    .hero-butn button {
+        padding: 5px 15px ;
+        font-size: 0.7rem ;
+    }
+    .hero-service p {
+        font-size: 0.7rem !important;
+    }
+    .deater-items h5 {
+        font-size: 0.9rem;
+    } 
+    .feater-sub{
+        font-size:1rem ;
+
+    }
+
+    .feater-text{
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+    .food-populer{
+        padding: 15px;
+    }
+    .food-populer button{
+    padding: 5px 15px;
+    font-size: .7rem ;
+    }
+    .tread-text-desc{
+        font-size: 0.8rem;
+    }
+    .choose-titel {
+        font-size: 0.8rem;
+    }
+    .choose-desc {
+        font-size: 0.7rem;
+    }
+    .termenal-network{
+        font-size: 1rem;
+    }
+    .termenal-title{
+        font-size: 0.6rem;
+    }
+    
+}

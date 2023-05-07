@@ -1,0 +1,17 @@
+.imgslid{
+    width: 100px;
+    height: 80px;
+}
+@media  only screen and (max-width:768px) {
+    .textslider{
+        font-size: 0.7rem;
+    }
+    .imgslid {
+        width: 60px;
+        height: 60px;
+    }
+    .name{
+        font-size: 0.7rem;
+    }
+    
+}
