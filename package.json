@@ -1,7 +1,7 @@
 {
   "name": "fooding",
   "version": "0.1.0",
-  "homepage": "https://lubnaalhalabe.github.io/addfood",
+  "homepage": "https://lubnaalhalabe.github.io/food-order/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
