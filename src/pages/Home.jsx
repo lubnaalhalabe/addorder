@@ -3,7 +3,7 @@ import React, { useState ,useEffect } from "react";
 import Helemt from "../components/Helemt/Helemt";
 import { Container , Row , Col , ListGroup ,ListGroupItem } from "reactstrap";
 import heroimg from "../assets/image/hero-img.png" ;
-import {NavLink , Link} from "react-router-dom" ;
+import { Link } from "react-router-dom" ;
 import products from "../assets/fake-date/products.js";
 
 import "../style/hero-set.css";

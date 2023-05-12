@@ -50,7 +50,7 @@ const initialState = {
                 (exisitingItem.price)
              } 
              state.totalAmount =  state.cartItems.reduce((total, item) =>(
-                total + Number(item.price) * Number(item.quantity) ,0)
+                total + Number(item.price) * Number(item.quantity) , 0)
                 
 
              );
@@ -63,7 +63,7 @@ const initialState = {
                 state.totalQuantity = state.totalQuantity - exisitingItem.quantity
             }
             state.totalAmount =  state.cartItems.reduce((total, item) =>(
-                total + Number(item.price) * Number(item.quantity),0) 
+                total + Number(item.price) * Number(item.quantity) , 0) 
                 
 
              );
